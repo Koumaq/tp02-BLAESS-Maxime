@@ -7,9 +7,5 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./recapitulatif.component.css']
 })
 export class RecapitulatifComponent {
-  formData: any;
 
-  constructor(private route: ActivatedRoute) {
-    this.formData = this.route.snapshot.paramMap.get('data');
-  }
 }
